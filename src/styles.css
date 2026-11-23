@@ -31,7 +31,7 @@ body {
 .navbar a { color: var(--link); text-decoration: none; }
 main { padding: 2rem; max-width: 60rem; margin: auto; }
 
-.theme-toggle {
+.nav-toggle {
   font: inherit;
   cursor: pointer;
   padding: 0.35rem 0.75rem;
@@ -40,5 +40,10 @@ main { padding: 2rem; max-width: 60rem; margin: auto; }
   background: transparent;
   color: var(--text);
 }
-.theme-toggle:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.nav-toggle:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+
+:root[data-fontsize="large"] {
+  font-size: 1.25rem;
+}
+
 @media (prefers-reduced-motion: reduce) { body { transition: none; } }

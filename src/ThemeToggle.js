@@ -3,7 +3,7 @@ import { getInitialTheme, applyTheme } from "./theme.js";
 export function createThemeToggle() {
   const button = document.createElement("button");
   button.type = "button";
-  button.className = "theme-toggle";
+  button.className = "nav-toggle";
 
   const render = (theme) => {
     const isDark = theme === "dark";
