@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #ffffff;
+  color: #1a1a1a;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #f0f0f0;
+}
+.navbar nav { display: flex; gap: 1rem; align-items: center; }
+.navbar a { color: #0645ad; text-decoration: none; }
+main { padding: 2rem; max-width: 60rem; margin: auto; }
